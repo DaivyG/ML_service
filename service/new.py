@@ -51,12 +51,7 @@ def load_models():
     return model
 
 
-def get_init_dfs():
-    engine = create_engine(
-        "postgresql://robot-startml-ro:pheiph0hahj1Vaif@"
-        "postgres.lab.karpov.courses:6432/startml"
-    )
-
+def get_init_dfs(engine=engine):
     df = pd.read_sql(f"SELECT * FROM post_text_df", engine)
     return df
 
