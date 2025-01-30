@@ -7,7 +7,7 @@
 - **Язык программирования:** Python
 - **Библиотека машинного обучения:** CatBoost
 - **Среда разработки:** Jupyter Notebook, VS Code
-- **Инструменты:** Pandas, NumPy, scikit-learn, Matplotlib, GridSearchCV, FastAPI, SQLAlchemy и тд
+- **Инструменты:** FastAPI, SQLAlchemy, PostgreSQL, Pandas, NumPy, scikit-learn, Matplotlib, GridSearchCV, CatBoost, git, uvicorn, psycopg, requests
 
 ## Результаты модели
 Модель была обучена на тренировочном наборе данных и протестирована на тестовом наборе. Оценка качества модели измерялась с использованием метрик для классификации:
